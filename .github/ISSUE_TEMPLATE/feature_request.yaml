@@ -1,0 +1,25 @@
+name: ✨ Feature Request
+description: Request a new feature or enhancement
+title: "[FEAT]: "
+labels: ["enhancement"]
+assignees: ["neoxelox", "mpl1018"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make Pullpo better 🤗
+        Make sure there aren't any open/closed issues for this topic 😃
+
+  - type: textarea
+    id: feat-description
+    attributes:
+      label: Description
+      description: Give us a brief description of the feature or enhancement you are thinking about
+    validations:
+      required: true
+
+  - type: textarea
+    id: feat-extra
+    attributes:
+      label: Additional Information
+      description: Give us some additional information on the feature request like proposed solutions, links, screenshots...

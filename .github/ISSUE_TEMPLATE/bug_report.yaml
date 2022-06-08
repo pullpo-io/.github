@@ -1,0 +1,50 @@
+name: 🐛 Bug Report
+description: File a bug report
+title: "[BUG]: "
+labels: ["bug"]
+assignees: ["neoxelox", "mpl1018"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report 🤗
+        Make sure there aren't any open/closed issues for this topic 😃
+
+  - type: dropdown
+    id: bug-impact
+    attributes:
+      label: Impact
+      description: Select a first impact 
+      options:
+        - "Visual: Odd behaviours or typos"
+        - "Hinder: It obstructs me to do what I want"
+        - "Blocker: It prevents me from doing anything at all"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description
+      description: Give us a brief description of what happened and what should have happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-steps
+    attributes:
+      label: Steps To Reproduce
+      description: Tell us what are the exact steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-extra
+    attributes:
+      label: Additional Information
+      description: Provide any additional information such as logs, screenshots, scenarios in which the bug occurs... so that it facilitates resolving the issue
