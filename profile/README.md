@@ -1,5 +1,3 @@
-![Pullpo banner](/profile/banner.png "Pullpo banner")
-
 <h1 align="center">
     <br>
         <a href="https://pullpo.io">Pullpo.io</a>
