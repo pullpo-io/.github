@@ -2,4 +2,4 @@
 
 Pullpo does not accept contributions yet.
 
-Please contact us at `hello@pullpo.io`.
+Please contact us at `hello@pullpo.io`
