@@ -8,6 +8,6 @@ Versions of Pullpo that are currently being supported with security updates:
 | ------- | ------------------ |
 | all     | :white_check_mark: |
 
-## Reporting a Vulnerability
+## Reporting a Vulnerability.
 
 Please contact us at `hello@pullpo.io`.
